@@ -1,0 +1,26 @@
+# Python environments and generated files
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local secrets and client-specific configuration
+.env
+.env.*
+!.env.example
+.secrets/
+secrets.yaml
+secrets.yml
+credentials.json
+*.pem
+*.key
+*.p12
+*.pfx
+/config/клиенты/*/конфиг.yaml
+/config/клиенты/*/конфиг.yml
+
+# Runtime data
+/data/
+*.sqlite3
+*.sqlite3-*
+*.log
